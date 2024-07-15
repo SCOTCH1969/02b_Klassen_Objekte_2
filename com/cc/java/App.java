@@ -15,8 +15,9 @@ public class App {
 
         output(cat.name):
         output(cat.furColor):
-
+        output("age: " + cat.age);
         
+
         System.out.println("----------------------------");
 
         Cat cat2 = new Cat();
