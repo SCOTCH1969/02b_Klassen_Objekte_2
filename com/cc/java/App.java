@@ -13,6 +13,10 @@ public class App {
         output("Blick von aussen: " + cat);
         output("Blick von innen: " + cat.getInstanceVariable());
 
+        output(cat.name):
+        output(cat.furColor):
+
+        
         System.out.println("----------------------------");
 
         Cat cat2 = new Cat();
