@@ -14,6 +14,10 @@ public class App {
         output(cat.furColor);
         output(Integer.toString(cat.age)); 
 
+        cat.furColor = "grey";
+        output(cat.furColor);
+
+
         System.out.println("----------------------------");
 
         Cat cat2 = new Cat("Alonzo", "grey", 35);
